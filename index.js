@@ -7,6 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/wjpc', (req, res) => {
+    console.log("esto es una prueba")
   res.send('Hello Wsadd!')
 })
 
