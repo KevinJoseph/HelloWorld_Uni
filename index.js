@@ -8,6 +8,8 @@ app.get('/', (req, res) => {
 
 app.get('/wjpc', (req, res) => {
   res.send('jelouda asdasd!')
+    console.log("esto es una prueba")
+  res.send('Hello Wsadd!')
 })
 
 app.get('/puerto', (req, res) => {
